@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalVibesJournal | Science-Backed Wellness & Holistic Health Tips</title>
+    <meta name="description"
+        content="Trusted research summaries and practical tips for holistic well-being - from nutrition to mindfulness and vision health.">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-gray-800">
+                    Vital<span class="text-emerald-600">Vibes</span>Journal
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#wellness" class="text-gray-600 hover:text-emerald-600 transition">Wellness</a>
+                    <a href="/blog/science-backed-nutrition.html"
+                        class="text-gray-600 hover:text-emerald-600 transition">Nutrition</a>
+                    <a href="/blog/mindfulness-research.html"
+                        class="text-gray-600 hover:text-emerald-600 transition">Mindfulness</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                Science Meets Holistic Wellbeing
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+                Evidence-based tips and research summaries to help you thrive - body, mind, and spirit.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#featured"
+                    class="bg-white hover:bg-emerald-700 text-text-emerald-600 font-medium py-3 px-8 rounded-lg shadow-md transition">
+                    Explore Latest
+                </a>
+                <a href="#newsletter"
+                    class="bg-white hover:bg-gray-50 text-emerald-600 font-medium py-3 px-8 rounded-lg border border-emerald-200 shadow-sm transition">
+                    Get Weekly Tips
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section id="featured" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">
+                Wellness Pathways
+            </h2>
+            <p class="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
+                Explore our research-backed guides for holistic health
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Vision Health Card -->
+                <a href="/understanding-vision"
+                    class="category-card bg-white rounded-xl shadow-md p-6 border border-gray-100 transition duration-300">
+                    <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Vision Health</h3>
+                    <p class="text-gray-600 mb-4">Nutrition and lifestyle approaches to support eye health</p>
+                    <div class="flex items-center text-emerald-600 font-medium">
+                        Explore Research
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </div>
+                </a>
+
+                <!-- Nutrition Card -->
+                <a href="/blog/science-backed-nutrition.html"
+                    class="category-card bg-white rounded-xl shadow-md p-6 border border-gray-100 transition duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Nutrition</h3>
+                    <p class="text-gray-600 mb-4">Food as medicine - science-backed dietary strategies</p>
+                    <div class="flex items-center text-blue-600 font-medium">
+                        Learn More
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </div>
+                </a>
+
+                <!-- Mindfulness Card -->
+                <a href="/blog/mindfulness-research.html"
+                    class="category-card bg-white rounded-xl shadow-md p-6 border border-gray-100 transition duration-300">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Mindfulness</h3>
+                    <p class="text-gray-600 mb-4">Evidence-based mental wellbeing practices</p>
+                    <div class="flex items-center text-purple-600 font-medium">
+                        Discover Techniques
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles Section -->
+    <section id="wellness" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+                Latest Wellness Insights
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Article 1 - Can link to future subpage -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="Healthy foods" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span
+                            class="inline-block px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-medium mb-2">Nutrition</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">5 Anti-Inflammatory Foods Backed by Research
+                        </h3>
+                        <p class="text-gray-600 mb-4">Discover which foods may help reduce systemic inflammation.</p>
+                        <a href="#" class="flex items-center text-blue-600 font-medium">
+                            Read Article
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Article 2 - Vision Health Featured -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="Eye exam" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span
+                            class="inline-block px-3 py-1 bg-emerald-100 text-emerald-600 rounded-full text-sm font-medium mb-2">Vision</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Understanding Vision Support Strategies</h3>
+                        <p class="text-gray-600 mb-4">Research on nutrients that may benefit eye health as we age.</p>
+                        <a href="/understanding-vision" class="flex items-center text-emerald-600 font-medium">
+                            Read Summary
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="Woman meditating" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span
+                            class="inline-block px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm font-medium mb-2">Mindfulness</span>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">The Science of Breathwork</h3>
+                        <p class="text-gray-600 mb-4">How controlled breathing affects stress levels and cognition.</p>
+                        <a href="#" class="flex items-center text-purple-600 font-medium">
+                            Learn Techniques
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#"
+                    class="inline-block bg-white hover:bg-gray-50 text-gray-800 font-medium py-3 px-8 rounded-lg border border-gray-200 shadow-sm transition">
+                    View All Articles
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+                What Our Readers Say
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card p-6 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-gray-200 overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah K."
+                                class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sarah K.</h4>
+                            <p class="text-sm text-gray-600">Member since 2022</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"The vision health guide helped me ask better questions at my eye
+                        exam. Finally, research I can trust!"</p>
+                </div>
+
+                <!-- Other testimonials... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="py-16 bg-emerald-50">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="bg-white rounded-xl shadow-md p-8 md:p-10">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Join Our Wellness Community</h2>
+                    <p class="text-lg text-gray-600">Get science-backed tips delivered weekly</p>
+                </div>
+
+                <form class="space-y-4">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                            <input type="text" id="name"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
+                            <input type="email" id="email" required
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="consent" type="checkbox" required
+                                class="focus:ring-emerald-500 h-4 w-4 text-emerald-600 border-gray-300 rounded">
+                        </div>
+                        <label for="consent" class="ml-3 text-sm text-gray-600">
+                            I agree to receive educational content. Unsubscribe anytime.
+                        </label>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 px-6 rounded-lg shadow-md transition duration-300 mt-4">
+                        Subscribe Now
+                    </button>
+                </form>
+
+                <p class="text-xs text-gray-500 text-center mt-6">
+                    We respect your privacy. View our <a href="/privacy"
+                        class="text-emerald-600 hover:underline">Privacy Policy</a>.
+                    Content is not medical advice.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Vital<span class="text-emerald-400">Vibes</span>Journal</h3>
+                    <p class="text-gray-400">Evidence-based wellness insights you can trust.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Topics</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/understanding-vision" class="text-gray-400 hover:text-white transition">Vision
+                                Health</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Nutrition</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Mindfulness</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Fitness</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Research Standards</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Medical Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2024 VitalVibesJournal. All content is for informational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
